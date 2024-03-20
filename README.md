@@ -1,8 +1,8 @@
 # NLP text analysis demo
 
-The project uses Apache Open NLP library for simple text analysis. 
-In the project, I used models from ApacheOpenNLP website that can be found [here](https://opennlp.apache.org/models.html) and [here](https://opennlp.sourceforge.net/models-1.5/)
+The project uses Apache Open NLP library for simple text analysis (Sentiment and NER). 
 
+I used models from Apache OpenNLP that can be found [here](https://opennlp.apache.org/models.html) and [here](https://opennlp.sourceforge.net/models-1.5/).
 However, I could not find a model for analyzing text sentiment so I wrote code to train my model. I prepared CSV file with labeled data with the help of chatGPT. You can find it in the [dataset](/dataset) directory.
 
 ### Technology stack
@@ -53,16 +53,15 @@ model/sentiment/en-sentiment-model-2024-03-20_22-06-33.bin
 ```
 
 
+The sentiment model has around 84% accuracy. With more inputs, it could analyze text sentiment with better accuracy. Here are some example responses:
 
-The semantic model has around 84% accuracy. With more inputs, it would be able to analyze text sentiment with better accuracy. Here are some example response
-
-| Input                                                 | Semantic model respons | Result  |
-|-------------------------------------------------------|------------------------|---------|
-| "My car broke and I can't get to the job"             | "NEGATIVE"             | ✅      |
-| "This news is very sad"                               | "NEGATIVE"             | ✅      |
-| "Their products are affordable and have good quality" | "NEGATIVE"             | ❌      |
-| "The view from the top of the mountain was awesome"   | "POSITIVE"             | ✅      |
-| "Another day, another dollar"                         | "NEUTRAL"              | ✅      |
-| "This new game is really amazing"                     | "POSITIVE"             | ✅      |
-| "I feel sad"                                          | "NEUTRAL"              | ❌      |
+| Input                                                 | Sentiment model response | Result  |
+|-------------------------------------------------------|-------------------------|---------|
+| "My car broke and I can't get to the job"             | "NEGATIVE"              | ✅      |
+| "This news is very sad"                               | "NEGATIVE"              | ✅      |
+| "Their products are affordable and have good quality" | "NEGATIVE"              | ❌      |
+| "The view from the top of the mountain was awesome"   | "POSITIVE"              | ✅      |
+| "Another day, another dollar"                         | "NEUTRAL"               | ✅      |
+| "This new game is really amazing"                     | "POSITIVE"              | ✅      |
+| "I feel sad"                                          | "NEUTRAL"               | ❌      |
 
