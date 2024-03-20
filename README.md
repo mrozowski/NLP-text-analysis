@@ -43,7 +43,7 @@ The endpoint takes JSON as a request with a single field `text` with the text we
 ``` bash
 curl -X POST 'localhost:8080/v1/model/train-sentiment-model' -F 'file=@"dataset/labeled-sentiment-dataset.csv"' 
 ```
-The endpoint takes a CSV file with text and sentiment columns. After successful upload, the app trains the model and saves it as `.bin` file in a `model/sentiment/` directory that can be changed in the application.yaml. 
+The endpoint takes a CSV file with text and sentiment columns. After successful upload, the app trains the model and saves it as `.bin` file in a `model/sentiment/` directory that can be changed in the application.yaml. To use a new model you have to update the application.yaml file with a path to a new sentimental model and restart the app. Later I might add endpoint to change model without restarting app. It is just a simple demo app to see how OpenNLP library works
 
 **Example response**
 ``` text
