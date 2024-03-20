@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: "TextAnalysisApplication"
+
+
+app:
+  model:
+    sentiment:
+      use-default-model: true # if set to true it will use default model from resources
+      model-path: ''          # if you want to use different model set this path and change use-default-model to false
+    tokenizer:
+      use-default-model: true
+      model-path: ''
+  training:
+    sentiment:
+      output-directory: 'model/'

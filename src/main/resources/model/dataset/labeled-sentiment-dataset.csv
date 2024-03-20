@@ -1,0 +1,238 @@
+text,sentiment
+"I loved the new movie, it was fantastic!",positive
+"The food at that restaurant was terrible.",negative
+"This book is boring.",negative
+"The weather today is wonderful!",positive
+"I'm not sure how I feel about this product.",neutral
+"Such a disappointing experience.",negative
+"The customer service was excellent!",positive
+"The view from the top of the mountain was breathtaking.",positive
+"I couldn't stop laughing during the comedy show.",positive
+"The traffic was horrible this morning.",negative
+"I'm really enjoying this new album.",positive
+"The hotel room was dirty and uncomfortable.",negative
+"I'm so excited to try out the new restaurant in town.",positive
+"The performance was mediocre at best.",neutral
+"I had a terrible headache all day.",negative
+"The museum exhibit was fascinating.",positive
+"The flight was delayed by several hours.",negative
+"I can't believe how rude the staff were.",negative
+"I'm feeling conflicted about my decision.",neutral
+"The party last night was a lot of fun.",positive
+"The internet connection is so slow.",negative
+"The movie was okay, but nothing special.",neutral
+"I had a great time at the beach today.",positive
+"The hotel staff were very helpful and friendly.",positive
+"I'm disappointed with the quality of the product.",negative
+"The concert was amazing!",positive
+"I'm not impressed with the new update.",negative
+"The sunset was absolutely stunning.",positive
+"The prices at that store are outrageous.",negative
+"The book I just finished was captivating.",positive
+"I can't stop thinking about the delicious meal I had.",positive
+"The service at the restaurant was slow and inattentive.",negative
+"I'm so happy with my new purchase!",positive
+"The presentation was informative and well-prepared.",positive
+"I'm feeling really down today.",negative
+"The traffic lights were malfunctioning.",negative
+"I'm excited to see what the future holds.",positive
+"The food poisoning ruined my entire trip.",negative
+"I'm feeling optimistic about the project.",positive
+"The software is full of bugs and glitches.",negative
+"The hike was challenging but rewarding.",positive
+"I'm dreading the upcoming exam.",negative
+"The party decorations were beautiful.",positive
+"The movie plot was predictable.",neutral
+"I'm feeling overwhelmed with work.",negative
+"The customer support was unhelpful.",negative
+"The scenery on the drive was breathtaking.",positive
+"I'm frustrated with the lack of communication.",negative
+"The hotel had a great location.",positive
+"I'm not sure if I made the right decision.",neutral
+"The weather forecast was completely wrong.",negative
+"The concert venue was overcrowded.",negative
+"I'm looking forward to the weekend.",positive
+"The food tasted bland and unappetizing.",negative
+"I'm feeling inspired after watching the documentary.",positive
+"The service at the restaurant was impeccable.",positive
+"I'm feeling nostalgic about my childhood.",positive
+"The traffic jam lasted for hours.",negative
+"The acting in the movie was superb.",positive
+"I'm feeling anxious about the upcoming presentation.",negative
+"The hotel room had a beautiful ocean view.",positive
+"The product arrived damaged.",negative
+"I'm grateful for the support of my friends.",positive
+"The bus was late again.",negative
+"I'm frustrated with the lack of progress.",negative
+"The museum tour guide was very knowledgeable.",positive
+"I'm worried about the future.",negative
+"The music at the party was too loud.",negative
+"I'm feeling tired and drained.",negative
+"The hotel had a pool and spa.",positive
+"I'm feeling hopeful about the outcome.",positive
+"The food was overpriced and tasteless.",negative
+"I'm excited for the opportunity.",positive
+"The concert tickets were sold out.",negative
+"I'm feeling bored with my routine.",negative
+"The beach was crowded with tourists.",negative
+"The weather today is perfect for outdoor activities.",positive
+"Just finished my workout 💪 Feeling amazing!",positive
+"I can't believe how rude some people can be 😡",negative
+"Exploring new places today! #adventure",positive
+"Stuck in traffic again... 😞",negative
+"Loving the new restaurant in town! #foodie",positive
+"Feeling blessed to spend time with family ❤️",positive
+"Another day, another dollar 💼 #worklife",neutral
+"Trying out a new recipe for dinner tonight!",positive
+"Feeling overwhelmed with all the deadlines 😓",negative
+"Chilling with friends at the beach 🌊 #weekendvibes",positive
+"Just got my coffee fix for the day ☕️",positive
+"Had a terrible experience at the doctor's office 😔",negative
+"Excited for the concert tonight! 🎶",positive
+"Why does it always rain on my day off? ☔️",negative
+"Missing my best friend who lives miles away 😢",negative
+"Working on my side hustle 💼 #entrepreneur",positive
+"Feeling inspired after reading a great book 📚",positive
+"The gym was packed today...can barely move!",negative
+"Finally booked my dream vacation! ✈️",positive
+"Feeling under the weather today 🤒",negative
+"Can't wait for the weekend to start! #TGIF",positive
+"Just had the best sushi ever! 🍣 #foodcoma",positive
+"Feeling motivated to start a new project 💡",positive
+"Lost my wallet...what a disaster 😩",negative
+"Spending quality time with my pet 🐾",positive
+"Had a productive day at work! 💼 #goals",positive
+"Why is customer service always so terrible? 😠",negative
+"Feeling grateful for all the little things in life ❤️",positive
+"Feeling anxious about the upcoming exam 😬",negative
+"Just binge-watched a whole season of my favorite show 📺",positive
+"Feeling lonely tonight...😞",negative
+"Trying to stay positive despite the challenges 💪",positive
+"Had a great time catching up with old friends! 😊",positive
+"Why does Monday always have to come so soon? 😩",negative
+"Finally finished that DIY project I've been working on! 🔨",positive
+"Feeling excited about the new opportunities ahead! 🌟",positive
+"Feeling tired after a long day of work... 😴",negative
+"Feeling nostalgic listening to old songs 🎶",positive
+"Feeling anxious about starting college next week 😬",negative
+"Spending the day at the park with my family 🌳",positive
+"Can't believe I forgot my umbrella on a rainy day! ☔️",negative
+"Feeling grateful for all the support I have 💕",positive
+"Feeling overwhelmed with all the wedding planning 😅",negative
+"Just adopted a new pet! Meet my furry friend 🐶",positive
+"Feeling excited to try out this new recipe for dinner!",positive
+"Why is it so hard to find good pizza in this town? 🍕",negative
+"Feeling accomplished after finishing a tough workout 💪",positive
+"Feeling stressed about the upcoming presentation 😬",negative
+"Enjoying a lazy Sunday morning in bed ☕️",positive
+"Feeling disappointed after watching the latest movie 😔",negative
+"Just finished my morning run. Feeling energized!",positive
+"Traffic was surprisingly light today. Made it to work early!",positive
+"Had a delicious breakfast with friends this morning.",positive
+"Forgot my lunch at home... What a way to start the day.",negative
+"Excited to see my favorite band perform live tonight!",positive
+"Spent the day volunteering at a local shelter. Feeling fulfilled.",positive
+"Lost my keys again... Can't seem to keep track of them!",negative
+"Feeling stressed about the upcoming exams.",negative
+"Caught up on some much-needed sleep last night.",positive
+"Can't wait for the weekend to relax and unwind.",positive
+"Had a great brainstorming session at work today.",positive
+"Woke up to a flat tire this morning. Not how I wanted to start my day.",negative
+"Enjoying a quiet evening at home with a good book.",positive
+"Feeling inspired after attending a motivational seminar.",positive
+"Had an amazing dinner at a new restaurant in town.",positive
+"Feeling overwhelmed with all the chores I need to do.",negative
+"Enjoying a cup of tea and watching the sunset.",positive
+"Spent the day exploring a new city. So much to see!",positive
+"Feeling lonely tonight. Wish I had someone to talk to.",negative
+"Caught up on my favorite TV show. Can't wait for the next episode!",positive
+"Just finished a challenging workout. Feeling accomplished!",positive
+"Feeling anxious about the upcoming presentation.",negative
+"Had a productive day at work. Got a lot done!",positive
+"Feeling grateful for all the blessings in my life.",positive
+"Feeling exhausted after a long day of meetings.",negative
+"Spent the day at the beach soaking up the sun.",positive
+"Stuck in traffic again... Will be late for my appointment.",negative
+"Feeling nostalgic listening to old songs from my childhood.",positive
+"Enjoying a quiet night in with a movie and popcorn.",positive
+"Feeling disappointed after hearing some bad news.",negative
+"Spent the day hiking in the mountains. What a workout!",positive
+"Feeling overwhelmed with all the work I have to do.",negative
+"Can't wait to see my family this weekend. It's been too long!",positive
+"Had a great time catching up with friends over dinner.",positive
+"Feeling stressed about the upcoming deadline.",negative
+"Enjoying a leisurely bike ride through the park.",positive
+"Feeling excited about the new project I'm working on.",positive
+"Woke up to a flat tire this morning... What a hassle!",negative
+"Feeling grateful for the support of my friends and family.",positive
+"Spent the day shopping for new clothes. Retail therapy!",positive
+"Feeling anxious about the job interview tomorrow.",negative
+"Enjoying a quiet day at home with my furry friend.",positive
+"Feeling bored with my routine. Need to shake things up!",negative
+"Caught up on some much-needed sleep last night.",positive
+"Feeling optimistic about the future.",positive
+"Had a great time at the concert last night. The band was amazing!",positive
+"Feeling overwhelmed with all the tasks on my to-do list.",negative
+"Spent the day at the zoo with my family. So much fun!",positive
+"Feeling nostalgic looking through old photo albums.",positive
+"Enjoying a lazy Sunday afternoon in the sun.",positive
+"Feeling stressed about the upcoming exam.",negative
+"Great post! Really enjoyed reading it.",positive
+"This is so informative, thanks for sharing!",positive
+"I completely agree with your point of view.",positive
+"Wow, this is incredible! Mind blown.",positive
+"I disagree with this. Can't believe you think that way.",negative
+"Such an interesting perspective. Never thought of it like that.",positive
+"I'm so inspired by your words. Keep shining!",positive
+"This is so important. Thank you for raising awareness.",positive
+"Can't stop laughing at this. Hilarious!",positive
+"This makes me so angry. How can people be so ignorant?",negative
+"Love this! Can't wait to try it out.",positive
+"I'm speechless. This is just too much.",negative
+"Thank you for sharing your story. It's so brave of you.",positive
+"I don't understand why anyone would think this is okay.",negative
+"I'm in awe of your talent. Keep up the amazing work!",positive
+"Completely disagree with you on this one.",negative
+"Sending you all the positive vibes. You got this!",positive
+"I can't believe I never thought of it this way before.",positive
+"Please keep posting more content like this. Love it!",positive
+"Feeling so inspired after reading this.",positive
+"This is so relatable. I'm going through the same thing.",positive
+"I'm sorry, but I have to disagree with you.",negative
+"This is exactly what I needed to hear today. Thank you.",positive
+"I wish more people would understand this.",positive
+"Couldn't agree more with what you said.",positive
+"Thank you for speaking out about this issue.",positive
+"I'm so proud of you for speaking your truth.",positive
+"This is unacceptable. Something needs to change.",negative
+"I'm sorry, but I have to disagree with this.",negative
+"Feeling so grateful to have come across this post.",positive
+"Absolutely love this! So heartwarming.",positive
+"I'm blown away by your creativity. Keep it up!",positive
+"I can't believe people still think like this.",negative
+"This made me tear up. So touching.",positive
+"I'm sorry, but I have to disagree with your point of view.",negative
+"Feeling so motivated after reading this.",positive
+"Please don't stop sharing your story. It's so important.",positive
+"I'm disappointed to see this kind of content on here.",negative
+"Feeling so inspired by your journey. Thank you for sharing.",positive
+"This is so powerful. Thank you for sharing your truth.",positive
+"I couldn't agree more with what you said.",positive
+"This made me smile. Thank you for brightening my day.",positive
+"I'm so impressed by your bravery. Keep fighting!",positive
+"I'm sorry, but I strongly disagree with this.",negative
+"Feeling so connected to this message. Thank you.",positive
+"I'm blown away by the kindness in this post. Truly heartwarming.",positive
+"This is so important. Thank you for shedding light on this issue.",positive
+"I can't believe I never thought of it like this before.",positive
+"Feeling so grateful to have found this community.",positive
+"And this is some content i always looking for thanks mate",positive
+"I hope this fixes your problem",neutral
+"I love you.",positive
+"I like you.",positive
+"I hate you!",negative
+"I'm sorry but I hate your opinion!",negative
+"I hate that.",negative
+"I hate it so much",negative
+"You are fucking idiot!",negative
+"My car broke",negative
