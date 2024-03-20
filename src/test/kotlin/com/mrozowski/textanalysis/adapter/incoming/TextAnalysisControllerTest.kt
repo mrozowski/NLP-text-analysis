@@ -1,5 +1,6 @@
 package com.mrozowski.textanalysis.adapter.incoming
 
+import com.mrozowski.textanalysis.domain.TextAnalysisFacade
 import com.mrozowski.textanalysis.domain.TextAnalysisService
 import com.mrozowski.textanalysis.domain.model.AnalysisResult
 import com.mrozowski.textanalysis.domain.model.NamedEntity
@@ -22,7 +23,7 @@ class TextAnalysisControllerTest {
     private lateinit var mockMvc: MockMvc
 
     @Mock
-    private lateinit var analysisService: TextAnalysisService
+    private lateinit var facade: TextAnalysisFacade
 
     @InjectMocks
     private lateinit var controller: TextAnalysisController
@@ -33,12 +34,12 @@ class TextAnalysisControllerTest {
         val request = AnalysisRequest(text)
         val analysisResult = AnalysisResult(Sentiment.NEUTRAL, NamedEntity(emptyList(), emptyList()))
 
-        Mockito.`when`(analysisService.analyzeText(request.text)).thenReturn(analysisResult)
+        Mockito.`when`(facade.analyzeText(request.text)).thenReturn(analysisResult)
         mockMvc = MockMvcBuilders.standaloneSetup(controller).build()
 
 
         mockMvc.perform(
-            post("/v1/rest/analyze")
+            post("/v1/analyze")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"text\": \"$text\"}")
         )

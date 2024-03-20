@@ -8,6 +8,7 @@ import opennlp.tools.doccat.DoccatModel
 import opennlp.tools.namefind.TokenNameFinderModel
 import opennlp.tools.tokenize.TokenizerModel
 import org.springframework.stereotype.Service
+import java.io.File
 import java.io.InputStream
 
 private val logger = KotlinLogging.logger {}
@@ -19,7 +20,6 @@ class NlpModelService(val properties: ModelConfigurationProperties) {
     private lateinit var tokenizerModel: TokenizerModel
     private lateinit var personNameFinderModel: TokenNameFinderModel
     private lateinit var organizationNameFinderModel: TokenNameFinderModel
-
 
     companion object {
         private var defaultSentimentModelPath: String = "/model/default-en-sentiment-model.bin"
@@ -36,6 +36,8 @@ class NlpModelService(val properties: ModelConfigurationProperties) {
     private fun loadModels() {
         if (properties.sentiment.isDefaultModel()) {
             loadDefaultSentimentModel()
+        } else {
+            loadSentimentModel()
         }
 
         if (properties.tokenizer.isDefaultModel()) {
@@ -43,7 +45,6 @@ class NlpModelService(val properties: ModelConfigurationProperties) {
         }
 
         loadDefaultNerModels()
-
     }
 
     private fun loadDefaultNerModels() {
@@ -75,6 +76,17 @@ class NlpModelService(val properties: ModelConfigurationProperties) {
         } ?: run {
             logger.error { "Failed to load default Sentiment model. File does not exist: $defaultSentimentModelPath" }
             throw FailedToLoadModelException("Could not find default Sentiment model in $defaultSentimentModelPath")
+        }
+    }
+
+    private fun loadSentimentModel() {
+        val file = File(properties.sentiment.modelPath)
+
+        if (file.exists()) {
+            sentimentModel = DoccatModel(file)
+        } else {
+            logger.error { "Failed to load Sentiment model. File does not exist: ${properties.sentiment.modelPath}" }
+            throw FailedToLoadModelException("Could not find default Sentiment model in ${properties.sentiment.modelPath}")
         }
     }
 

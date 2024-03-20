@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Configuration
 
 @Configuration
-@EnableConfigurationProperties(ModelConfigurationProperties::class)
+@EnableConfigurationProperties(ModelConfigurationProperties::class, TrainingConfigurationProperties::class)
 class DefaultModelConfiguration {
 
 

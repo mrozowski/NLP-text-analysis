@@ -1,12 +1,10 @@
 package com.mrozowski.textanalysis.domain
 
-import com.mrozowski.textanalysis.domain.model.AnalysisResult
 import com.mrozowski.textanalysis.domain.model.Sentiment
 import opennlp.tools.doccat.DoccatModel
 import opennlp.tools.namefind.TokenNameFinderModel
 import opennlp.tools.tokenize.TokenizerModel
 import org.junit.jupiter.api.Test
-
 import org.junit.jupiter.api.extension.ExtendWith
 import org.mockito.InjectMocks
 import org.mockito.Mock

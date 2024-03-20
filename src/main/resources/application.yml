@@ -13,4 +13,4 @@ app:
       model-path: ''
   training:
     sentiment:
-      output-directory: 'model/'
+      output-directory: 'model/sentiment/'
